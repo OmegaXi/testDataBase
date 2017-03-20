@@ -11,14 +11,17 @@
 	request.setCharacterEncoding("gb2312");
     String username = request.getParameter("username");
     String password = request.getParameter("password");
+    String usertype = request.getParameter("usertype");
     Cookie c = new Cookie("name",username);
-	//设置cookie过期时间
 	c.setMaxAge(-1); 
-	//在响应头部添加cookie
 	response.addCookie(c);
-    if ("admin".equals(username) && "admin".equals(password))
+    if ("admin".equals(username) && "admin".equals(password))//管理员权限
     {
         request.getRequestDispatcher("login_success.jsp").forward(request,response);
+    }
+    else if ("user".equals(username) && "user".equals(password))//用户权限
+    {
+        response.sendRedirect("login_user.jsp");
     }
     else
     {

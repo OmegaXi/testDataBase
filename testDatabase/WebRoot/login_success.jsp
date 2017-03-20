@@ -7,7 +7,28 @@
 <title>登陆成功</title>
 </head>
 <body>
-登录成功！<br>
-单位管理页面的内容
+<h2 align="center">管理员登陆成功 </h2>
+<center>
+<table border="1">
+<tr>
+	<td align="center">
+	审查申请情况
+	</td>
+	<td>
+	<input type="button" value="查看申请" onclick="window.location.href='check_appoint.jsp'">
+	</td>
+</tr>
+<tr>	
+	<td align="center">
+	发布一个项目
+	</td>
+	<td>
+	<input type="button" value="前往发布" onclick="window.location.href='upload.jsp'">
+	</td>
+	
+</tr>
+</table>
+<input type="button" value="返回登陆" onclick="window.location.href='login.jsp'">
+</center>
 </body>
 </html>

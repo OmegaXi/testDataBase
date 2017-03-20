@@ -4,10 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>登录失败</title>
+<title>申请页面</title>
 </head>
 <body>
-<h2 align="center">登录失败！</h2>
-<center><input type="button" value="返回登陆" onclick="window.location.href='login.jsp'"></center>
+<h3>被申请的项目</h3>
+<!-- 表格 -->
+<input type="button" value="同意通过">       <input type="button" value="拒绝通过">
+<hr>
+<input type="button" value="返回登陆" onclick="window.location.href='login.jsp'">
 </body>
 </html>
