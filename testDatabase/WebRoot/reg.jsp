@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="keywords" content="" />
-<style>input.al{padding:5px 20px 5px 5px;width:100%;border:1px solid #fff;text-align:left;outline:none;font-size:18px;margin-top:6%;font-weight: 300;font-family: 'Muli', sans-serif;border-radius: 4px;}</style>
-<style>select.one{padding:5px 20px 5px 5px;width:100%;border:1px solid #fff;text-align:left;outline:none;font-size:18px;margin-top:6%;font-weight: 300;font-family: 'Muli', sans-serif;border-radius: 4px;}</style>
-<style>span.fo{font-size:25px;color:white;}</style>
+<style>input.al{padding:3px 15px 3px 3px;width:100%;border:1px solid #fff;text-align:left;outline:none;font-size:18px;margin-top:6%;font-weight: 300;font-family: 'Muli', sans-serif;border-radius: 4px;}</style>
+<style>select.one{padding:3px 15px 3px 3px;width:100%;border:1px solid #fff;text-align:left;outline:none;font-size:18px;margin-top:6%;font-weight: 300;font-family: 'Muli', sans-serif;border-radius: 4px;}</style>
+<style>span.fo{font-size:20px;color:white;}</style>
 <style>input.reg:hover{background-color:#376D29;color:white;}</style>
 <style>h1.st{color:white;text-align:center;font-size:45px;padding:12px 0;text-transform:uppercase;font-weight:200;}</style>
 <style>input.reg{padding:10px;background-color:#4C9A39;width:78%;border:none;cursor:pointer;color:#fff;font-weight: 300;font-family: 'Nunito', sans-serif;font-size:20px;margin-top:7%;text-transform:uppercase;border-radius:4px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;}</style>
@@ -24,8 +24,7 @@
 <h1 align="center" class="st"><strong>注册</strong></h1>
 	<center>
 		<form class="cl">
-			<table align="center"
-				style="border-bottom-width: medium; border-top-width: medium; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-width: medium; border-right-style: solid; border-left-width: medium; padding-left: 5px; padding-right: 5px; padding-top: 5px; width: 364px; padding-bottom: 5px; word-spacing: normal">
+			<table align="center" style="padding-left: 5px; padding-right: 5px; padding-top: 5px; width: 364px; padding-bottom: 5px; word-spacing: normal">
 				<tr>
 					<td><span class="fo">单位名称</span></td>
 					<td><input class="al" name="unit_name"></td>
