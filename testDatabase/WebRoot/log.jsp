@@ -3,6 +3,7 @@
 <html>
 <head>
 <title>登陆页面</title>   
+<style>select.one{padding:3px 15px 3px 3px;width:30%;border:1px solid #fff;text-align:left;outline:none;font-size:18px;margin-top:6%;font-weight: 300;font-family: 'Muli', sans-serif;border-radius: 4px;}</style>
 <style>p.footer{margin-top:3%;padding:10px 0;text-align:center;font-size:15px;font-family: 'Muli', sans-serif;font-weight: 300;line-height:25px;}</style>
 <style>body.ba{margin:0;padding:0;background:url(images/banner.jpg);background-attachment:fixed;background-position:center;background-size:cover;}</style>
 <style>a.sty:hover{color:white;}</style>
@@ -25,8 +26,13 @@
 		<form class="cl">
 			<input type="text" class="username" name="unit_username" value="用户名" onfocus="this.value='';" onblur="if(this.value==''){this.value='用户名'}">
 			<input type="password" class="passwd" name="unit_passwd" value="假装这是八位密码" onfocus="this.value='';" onblur="if(this.value==''){this.value='假装这是八位密码'}">
+			<select class="one" name="quanxian">
+							<option value="admin">管理员</option>
+							<option value="user">用户</option>
+			</select>
 			<input type="submit" class="log" value="登陆">
 			<input type="reset" class="log" value="重置">
+			
 		</form>
 		没有账号？<a href="reg.jsp" class="sty">前往注册</a>
 	<p class="footer">Copyright &copy; 2017.Nobody All rights reserved</p>

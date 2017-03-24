@@ -3,7 +3,8 @@
 <html>
   <head>
     <title>管理员权限</title>
-    <style>a.sty:hover{color:white;}</style>
+    <style>a.sty:{color:white}</style>
+    <style>a.sty:hover{color:red;}</style>
 	<style>a.sty:link{color:blue;}</style>
 	<style>a.sty:visited{color:blue;}</style>
 	<style>a.sty:active{color:blue}</style>
